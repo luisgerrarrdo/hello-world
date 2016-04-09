@@ -1,2 +1,3 @@
-var something = 0;
+var something = "hello";
 console.log(something);
+something = "hello";
