@@ -1,0 +1,18 @@
+{
+  "UNIQUE_ITEM_ID_RULE": {
+    "enabled": true,
+    "name": "UNIQUE_ITEM_ID_RULE",
+    "tooltipMessage": "A product with the same ID has already been added to the cart."
+  },
+  "UNIQUE_FAMILY_RULE": {
+    "enabled": true,
+    "name": "UNIQUE_FAMILY_RULE",
+    "tooltipMessage": "A product from this family has already been added to the cart, please remove that item to add another."
+  },
+  "MUTUALLY_EXCLUSIVE_FAMILIES_RULE": {
+    "enabled": true,
+    "name": "MUTUALLY_EXCLUSIVE_FAMILIES_RULE",
+    "tooltipMessage": "A product from a mutually exclusive family has already been added to the cart, please remove that item to add another.",
+    "families": ["QBO", "PAYROLL"]
+  }
+}
